@@ -1,0 +1,85 @@
+.services-inner{
+    position: relative;
+    background-color:#2C343E;
+}
+
+.inner-top{
+    width: 540px;
+    margin: 0 auto;
+}
+
+.inner-top__title{
+    padding-top: 100px;
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.inner-top__text{
+    padding-top: 32px;
+    padding-bottom: 306px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.cards-box{   
+    display: flex;
+    margin: 0 auto;
+    width: 1110px;
+    position: absolute;
+    z-index: 1;
+    bottom: -180px;
+    right: 95px;
+    justify-content: space-between;
+}
+
+ .cards-box__card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 382px;
+    align-items: center;
+     background-color: #0E8784;
+     border-radius: 8px;
+ }  
+
+ .cards-box__card__img{
+    width: 71px;
+    height: 72px;
+    margin: 72px 143px 56px 143px;
+ }
+
+ .mowina{
+    width: 110px;
+    height: 75px;
+ }
+
+ .cards-box__card__title{
+    width: 255px;
+    text-align: center;
+    font-family: "Fraunces" , serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+ }
+
+ .cards-box__card__text{
+    width: 255px;
+    height: 78px;
+    font-family: "Barlow" , serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+ }
